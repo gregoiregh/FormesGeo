@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace FormesGeo
 {
-    public class Class1
+    public class Cercle
     {
+        public int Rayon { get; set; }
+        public Cercle(int rayon)
+        {
+            this.Rayon = rayon;
+        }
     }
 }
